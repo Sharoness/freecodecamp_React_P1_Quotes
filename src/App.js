@@ -137,6 +137,12 @@ class App extends React.Component {
     this.handleClick=this.handleClick.bind(this);
   }
 
+componentDidMount() {
+    this.setState(state => ({
+      number: Math.floor(Math.random() * quotes.length)
+    }));
+  }
+
   handleClick(){
     this.setState(state => ({
       number: Math.floor(Math.random() * quotes.length)
