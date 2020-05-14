@@ -1,5 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './App.css';
 import gonImage from './images/gonDetermined.jpg';
 import gonImageTwo from './images/gonSmiling.png';
@@ -152,12 +157,33 @@ componentDidMount() {
   render() {
     return (
       <div className="App" id="quote-box">
-        <h1>Random Quote Machine</h1>
-        <img id="img" src={quotes[this.state.number].img} alt="image of author" />
-        <p id="text">{quotes[this.state.number].quote}</p>
-        <p id="author">{quotes[this.state.number].author}</p>
-        <button onClick={this.handleClick} id="new-quote">Click me for a new quote!</button>
-        <a id="tweet-quote" href="twitter.com/intent/tweet">Share on twitter</a>
+      <Container>
+        <Row className="justify-content-center">
+          <Col className="col-md-auto m-4">
+            <h1>Random Quote Machine</h1>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col className="col-md-auto  mt-2">
+
+            <Card style={{ width: '400px' }} className="text-center">
+              <Card.Img variant="top" id="img" src={quotes[this.state.number].img} alt="image of author" />
+              <Card.Body>
+                <blockquote className="blockquote mb-0 card-body" id="text"><p>{quotes[this.state.number].quote}</p>
+                <footer className="blockquote-footer">
+                  <cite title="Source Title" id="author">
+                  {quotes[this.state.number].author}
+                  </cite>
+                </footer>
+                </blockquote>
+                <Button variant="primary" onClick={this.handleClick} id="new-quote">Click me for a new quote!</Button>
+                <Card.Link id="tweet-quote" href="twitter.com/intent/tweet">Share on twitter</Card.Link>
+              </Card.Body>
+            </Card>
+
+            </Col>
+        </Row>
+      </Container>
       </div>
     );
   }
