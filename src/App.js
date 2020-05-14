@@ -27,7 +27,7 @@ import gingimageTwo from './images/ging.jpg';
 import biscuitnormal from './images/Biscuit_Full_Body_View.jpg';
 import gerettaimage from './images/geretta.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 // 20 quotes
 const quotes = [
@@ -178,7 +178,7 @@ componentDidMount() {
                 </footer>
                 </blockquote>
                 <Button variant="primary" onClick={this.handleClick} id="new-quote" className="float-right py-2">New quote</Button>
-                <Card.Link id="tweet-quote" href="twitter.com/intent/tweet" className="float-left py-2"><FontAwesomeIcon icon={faTwitter} size="lg" /></Card.Link>
+                <a id="tweet-quote" href="twitter.com/intent/tweet" className="float-left py-2"><FontAwesomeIcon icon={faTwitter} size="lg" /></a>
               </Card.Body>
             </Card>
 
