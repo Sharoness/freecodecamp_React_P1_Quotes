@@ -167,13 +167,13 @@ componentDidMount() {
         <Row className="justify-content-center">
           <Col className="col-md-auto  my-2">
 
-            <Card style={{ width: '400px' }} className="text-center border border-primary">
+            <Card style={{ width: '400px'}} className="text-center border border-primary">
               <Card.Img variant="top" id="img" src={quotes[this.state.number].img} alt="image of author" className="col-md-auto mt-3" />
               <Card.Body>
                 <blockquote className="blockquote my-0 card-body" id="text"><p>{quotes[this.state.number].quote}</p>
                 <footer className="blockquote-footer">
                   <cite title="Source Title" id="author">
-                  {quotes[this.state.number].author}
+                  <p>{quotes[this.state.number].author}</p>
                   </cite>
                 </footer>
                 </blockquote>
@@ -182,7 +182,7 @@ componentDidMount() {
               </Card.Body>
             </Card>
 
-            </Col>
+          </Col>
         </Row>
       </Container>
       </div>
