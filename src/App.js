@@ -26,7 +26,8 @@ import gingimage from './images/gingfreecss.jpg';
 import gingimageTwo from './images/ging.jpg';
 import biscuitnormal from './images/Biscuit_Full_Body_View.jpg';
 import gerettaimage from './images/geretta.png';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 // 20 quotes
 const quotes = [
@@ -164,20 +165,20 @@ componentDidMount() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col className="col-md-auto  mt-2">
+          <Col className="col-md-auto  my-2">
 
-            <Card style={{ width: '400px' }} className="text-center">
-              <Card.Img variant="top" id="img" src={quotes[this.state.number].img} alt="image of author" />
+            <Card style={{ width: '400px' }} className="text-center border border-primary">
+              <Card.Img variant="top" id="img" src={quotes[this.state.number].img} alt="image of author" className="col-md-auto mt-3" />
               <Card.Body>
-                <blockquote className="blockquote mb-0 card-body" id="text"><p>{quotes[this.state.number].quote}</p>
+                <blockquote className="blockquote my-0 card-body" id="text"><p>{quotes[this.state.number].quote}</p>
                 <footer className="blockquote-footer">
                   <cite title="Source Title" id="author">
                   {quotes[this.state.number].author}
                   </cite>
                 </footer>
                 </blockquote>
-                <Button variant="primary" onClick={this.handleClick} id="new-quote">Click me for a new quote!</Button>
-                <Card.Link id="tweet-quote" href="twitter.com/intent/tweet">Share on twitter</Card.Link>
+                <Button variant="primary" onClick={this.handleClick} id="new-quote" className="float-right py-2">Click me for a new quote!</Button>
+                <Card.Link id="tweet-quote" href="twitter.com/intent/tweet" className="float-left py-2"><FontAwesomeIcon icon={faTwitter} size="lg" /></Card.Link>
               </Card.Body>
             </Card>
 
