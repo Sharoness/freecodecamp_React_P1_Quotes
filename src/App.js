@@ -1,7 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -26,8 +23,7 @@ import gingimage from './images/gingfreecss.jpg';
 import gingimageTwo from './images/ging.jpg';
 import biscuitnormal from './images/Biscuit_Full_Body_View.jpg';
 import gerettaimage from './images/geretta.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import CardQuote from './CardQuote.jsx';
 
 // 20 quotes
 const quotes = [
@@ -143,7 +139,7 @@ class App extends React.Component {
     this.handleClick=this.handleClick.bind(this);
   }
 
-componentDidMount() {
+  componentDidMount() {
     this.setState(state => ({
       number: Math.floor(Math.random() * quotes.length)
     }));
@@ -165,23 +161,8 @@ componentDidMount() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col className="col-md-auto  my-2" style={{ width: '400px'}}>
-
-            <Card className="text-center border border-primary">
-              <Card.Img variant="top" id="img" src={quotes[this.state.number].img} alt="image of author" className="col-md-auto mt-3" />
-              <Card.Body>
-                <blockquote className="blockquote my-0 card-body" id="text"><p>{quotes[this.state.number].quote}</p>
-                <footer className="blockquote-footer">
-                  <cite title="Source Title" id="author">
-                  <p>{quotes[this.state.number].author}</p>
-                  </cite>
-                </footer>
-                </blockquote>
-                <Button variant="primary" onClick={this.handleClick} id="new-quote" className="float-right py-2">New quote</Button>
-                <a id="tweet-quote" href="twitter.com/intent/tweet" className="float-left py-2"><FontAwesomeIcon icon={faTwitter} size="lg" /></a>
-              </Card.Body>
-            </Card>
-
+          <Col className="col-md-auto  my-2" style={{ width: '400px'}} id="test">
+            <CardQuote author={quotes[this.state.number].author} image={quotes[this.state.number].img} quote={quotes[this.state.number].quote} number={this.state.number} click={this.handleClick} />
           </Col>
         </Row>
       </Container>
