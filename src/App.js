@@ -5,7 +5,6 @@ import CardQuote from './CardQuote.jsx';
 import Title from './Title.jsx';
 import quotes from './quotes.js';
 
-
 class App extends React.Component {
 
   constructor(props) {
