@@ -154,7 +154,7 @@ class App extends React.Component {
     return (
       <div className="App" id="quote-box">
       <Container>
-        <Title />
+        <Title title="Random Quote Machine" />
         <CardQuote author={quotes[this.state.number].author} image={quotes[this.state.number].img} quote={quotes[this.state.number].quote} number={this.state.number} click={this.handleClick} />
       </Container>
       </div>
