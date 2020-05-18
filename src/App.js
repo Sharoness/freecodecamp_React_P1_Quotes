@@ -1,7 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import './App.css';
 import gonImage from './images/gonDetermined.jpg';
 import gonImageTwo from './images/gonSmiling.png';
@@ -24,6 +22,7 @@ import gingimageTwo from './images/ging.jpg';
 import biscuitnormal from './images/Biscuit_Full_Body_View.jpg';
 import gerettaimage from './images/geretta.png';
 import CardQuote from './CardQuote.jsx';
+import Title from './Title.jsx';
 
 // 20 quotes
 const quotes = [
@@ -155,16 +154,8 @@ class App extends React.Component {
     return (
       <div className="App" id="quote-box">
       <Container>
-        <Row className="justify-content-center">
-          <Col className="col-md-auto m-4">
-            <h1>Random Quote Machine</h1>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col className="col-md-auto  my-2" style={{ width: '400px'}} id="test">
-            <CardQuote author={quotes[this.state.number].author} image={quotes[this.state.number].img} quote={quotes[this.state.number].quote} number={this.state.number} click={this.handleClick} />
-          </Col>
-        </Row>
+        <Title />
+        <CardQuote author={quotes[this.state.number].author} image={quotes[this.state.number].img} quote={quotes[this.state.number].quote} number={this.state.number} click={this.handleClick} />
       </Container>
       </div>
     );
