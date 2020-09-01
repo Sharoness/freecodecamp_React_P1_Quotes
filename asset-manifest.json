@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/freecodecamp_React_P1_Quotes/static/css/main.876b8ab0.chunk.css",
+    "main.js": "/freecodecamp_React_P1_Quotes/static/js/main.7e7a9bde.chunk.js",
+    "main.js.map": "/freecodecamp_React_P1_Quotes/static/js/main.7e7a9bde.chunk.js.map",
+    "runtime-main.js": "/freecodecamp_React_P1_Quotes/static/js/runtime-main.a2574618.js",
+    "runtime-main.js.map": "/freecodecamp_React_P1_Quotes/static/js/runtime-main.a2574618.js.map",
+    "static/css/2.de424728.chunk.css": "/freecodecamp_React_P1_Quotes/static/css/2.de424728.chunk.css",
+    "static/js/2.81eb4a2d.chunk.js": "/freecodecamp_React_P1_Quotes/static/js/2.81eb4a2d.chunk.js",
+    "static/js/2.81eb4a2d.chunk.js.map": "/freecodecamp_React_P1_Quotes/static/js/2.81eb4a2d.chunk.js.map",
+    "index.html": "/freecodecamp_React_P1_Quotes/index.html",
+    "precache-manifest.9561067cd7ce520ec7b2206bf370c223.js": "/freecodecamp_React_P1_Quotes/precache-manifest.9561067cd7ce520ec7b2206bf370c223.js",
+    "service-worker.js": "/freecodecamp_React_P1_Quotes/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/freecodecamp_React_P1_Quotes/static/css/2.de424728.chunk.css.map",
+    "static/css/main.876b8ab0.chunk.css.map": "/freecodecamp_React_P1_Quotes/static/css/main.876b8ab0.chunk.css.map",
+    "static/js/2.81eb4a2d.chunk.js.LICENSE.txt": "/freecodecamp_React_P1_Quotes/static/js/2.81eb4a2d.chunk.js.LICENSE.txt",
+    "static/media/Biscuit_Full_Body_View.jpg": "/freecodecamp_React_P1_Quotes/static/media/Biscuit_Full_Body_View.cb3eaeea.jpg",
+    "static/media/Killua_murders_bodoro.png": "/freecodecamp_React_P1_Quotes/static/media/Killua_murders_bodoro.d46cc87e.png",
+    "static/media/Netero-Debut.jpg": "/freecodecamp_React_P1_Quotes/static/media/Netero-Debut.bbdb35e0.jpg",
+    "static/media/geretta.png": "/freecodecamp_React_P1_Quotes/static/media/geretta.90c6f24e.png",
+    "static/media/gingfreecss.jpg": "/freecodecamp_React_P1_Quotes/static/media/gingfreecss.485eae4a.jpg",
+    "static/media/gonDetermined.jpg": "/freecodecamp_React_P1_Quotes/static/media/gonDetermined.89427194.jpg",
+    "static/media/gonSmiling.png": "/freecodecamp_React_P1_Quotes/static/media/gonSmiling.2e4a3210.png",
+    "static/media/gon_and_killua.jpg": "/freecodecamp_React_P1_Quotes/static/media/gon_and_killua.1f4c72fa.jpg",
+    "static/media/hisoka_eye.jpg": "/freecodecamp_React_P1_Quotes/static/media/hisoka_eye.d034e103.jpg",
+    "static/media/hisoka_hairdown.png": "/freecodecamp_React_P1_Quotes/static/media/hisoka_hairdown.e2f5a6c4.png",
+    "static/media/killua_bored.jpg": "/freecodecamp_React_P1_Quotes/static/media/killua_bored.ed598ed7.jpg",
+    "static/media/killua_godspeed.png": "/freecodecamp_React_P1_Quotes/static/media/killua_godspeed.ca79d0ff.png",
+    "static/media/kurapika.jpg": "/freecodecamp_React_P1_Quotes/static/media/kurapika.b8608130.jpg",
+    "static/media/kurapika_scarlet_eyes.jpg": "/freecodecamp_React_P1_Quotes/static/media/kurapika_scarlet_eyes.746add74.jpg",
+    "static/media/leorio.jpg": "/freecodecamp_React_P1_Quotes/static/media/leorio.c14400fb.jpg",
+    "static/media/leorio_money.jpg": "/freecodecamp_React_P1_Quotes/static/media/leorio_money.e8439b13.jpg",
+    "static/media/neteroNen.jpg": "/freecodecamp_React_P1_Quotes/static/media/neteroNen.1094a50a.jpg",
+    "static/media/netero_ball.jpg": "/freecodecamp_React_P1_Quotes/static/media/netero_ball.92753603.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2574618.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.81eb4a2d.chunk.js",
+    "static/css/main.876b8ab0.chunk.css",
+    "static/js/main.7e7a9bde.chunk.js"
+  ]
+}
