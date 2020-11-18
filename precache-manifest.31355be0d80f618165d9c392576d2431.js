@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bee03619a45ca2f806b3542e52c472ab",
+    "revision": "6999c25335987cb18dfec647ff3e52c8",
     "url": "/freecodecamp_React_P1_Quotes/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/freecodecamp_React_P1_Quotes/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "74b254cf4ed25a247ed3",
-    "url": "/freecodecamp_React_P1_Quotes/static/css/main.876b8ab0.chunk.css"
+    "revision": "7e18411de6fb2477b4e5",
+    "url": "/freecodecamp_React_P1_Quotes/static/css/main.4cf9fa89.chunk.css"
   },
   {
     "revision": "549553e90c57f1f8158b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/freecodecamp_React_P1_Quotes/static/js/2.81eb4a2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74b254cf4ed25a247ed3",
-    "url": "/freecodecamp_React_P1_Quotes/static/js/main.7e7a9bde.chunk.js"
+    "revision": "7e18411de6fb2477b4e5",
+    "url": "/freecodecamp_React_P1_Quotes/static/js/main.c1685fdf.chunk.js"
   },
   {
     "revision": "8ba50d84adcb80f02eb4",
