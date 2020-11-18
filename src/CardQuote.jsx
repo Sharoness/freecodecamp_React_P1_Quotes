@@ -11,7 +11,7 @@ class CardQuote extends React.Component {
 	render() {
 		return (
 			<Row className="justify-content-center">
-          		<Col className="col-md-auto  my-2" style={{ width: '400px'}} id="test">
+          		<Col className="col-md-auto  my-2" style={{ width: '400px'}}>
 					<Card className="text-center border border-primary">
 			        	<Card.Img variant="top" id="img" src={this.props.image} alt="image of author" className="col-md-auto mt-3" />
 			        	<Card.Body>

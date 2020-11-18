@@ -3,7 +3,8 @@
 
 h1 {
   font-family: 'Pacifico';
-  font-size: 80px;
+  font-size: 8vh;
+  text-align: center;
 }
 
 p {
