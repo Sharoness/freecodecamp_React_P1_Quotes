@@ -32,7 +32,7 @@ class App extends React.Component {
       <div className="App" id="quote-box">
       <Container>
         <Title title="Random Quote Machine" />
-        <CardQuote author={quotes[this.state.number].author} image={quotes[this.state.number].img} quote={quotes[this.state.number].quote} number={this.state.number} click={this.handleClick} />
+        <CardQuote author={quotes[this.state.number].a} image={quotes[this.state.number].img} quote={quotes[this.state.number].q} number={this.state.number} click={this.handleClick} />
       </Container>
       </div>
     );

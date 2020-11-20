@@ -13,7 +13,9 @@ class CardQuote extends React.Component {
 			<Row className="justify-content-center">
           		<Col className="col-md-auto  my-2" style={{ width: '400px'}}>
 					<Card className="text-center border border-primary">
+						{this.props.image &&
 			        	<Card.Img variant="top" id="img" src={this.props.image} alt="image of author" className="col-md-auto mt-3" />
+						}
 			        	<Card.Body>
 			            	<BlockQuote quote={this.props.quote} author={this.props.author} />
 			                <Button variant="primary" onClick={this.props.click} id="new-quote" className="float-right py-2">New quote</Button>
